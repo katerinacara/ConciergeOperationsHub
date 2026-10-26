@@ -34,10 +34,12 @@ export default function RootLayout({
                 Επισκόπηση
               </Link>
 
-              <div className="flex items-center justify-between rounded-lg px-3 py-2 text-slate-500">
-                <span>Αιτήματα</span>
-                <span className="text-xs">Σύντομα</span>
-              </div>
+              <Link
+                href="/tickets"
+                className="block rounded-lg px-3 py-2 text-slate-700 hover:bg-slate-50"
+              >
+                Αιτήματα
+              </Link>
 
               <div className="flex items-center justify-between rounded-lg px-3 py-2 text-slate-500">
                 <span>Παράδοση βάρδιας</span>
